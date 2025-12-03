@@ -9,7 +9,7 @@
 
 /* CUSTOM HEADER AND LOGO STYLES */
 .navbar-custom {
-    min-height: 80px !important; /* Increase header height */
+    min-height: 110px !important; /* Increase header height */
     display: flex;
     align-items: center;
 }
@@ -22,7 +22,7 @@
 
 .topnav-logo img {
     height: auto !important;
-    max-height: 60px !important; /* Adjust based on header height */
+    max-height: 85px !important; /* Adjust based on header height */
     width: auto !important;
     object-fit: contain;
 }
