@@ -8,23 +8,36 @@
 }
 
 /* CUSTOM HEADER AND LOGO STYLES */
-.navbar-custom {
+.navbar-custom.topnav-navbar {
     min-height: 280px !important; /* Increase header height for larger logo */
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    align-items: center !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
-.topnav-logo {
-    display: flex;
-    align-items: center;
-    height: 100%;
+a.topnav-logo {
+    display: flex !important;
+    align-items: center !important;
+    height: 100% !important;
+    padding: 10px 0 !important;
 }
 
+.topnav-logo span.topnav-logo-lg,
+.topnav-logo span.topnav-logo-sm {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.topnav-logo span.topnav-logo-lg img,
+.topnav-logo span.topnav-logo-sm img,
 .topnav-logo img {
     height: auto !important;
     max-height: 255px !important; /* 3x larger than 85px */
+    min-height: 255px !important;
     width: auto !important;
-    object-fit: contain;
+    max-width: none !important;
+    object-fit: contain !important;
 }
 </style>
 <?php
