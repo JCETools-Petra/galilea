@@ -4,10 +4,24 @@ $system_name  = get_frontend_settings('website_title');
 ?>
 <style>
 .frontend-logo {
-    height: 40px !important; /* Slightly larger */
+    height: 120px !important; /* 3x larger (40px x 3) */
     width: auto !important;
     max-width: 100%;
     object-fit: contain;
+}
+
+/* Adjust header height for larger logo */
+.u-header__section {
+    padding: 15px 0 !important;
+}
+
+.u-header__navbar {
+    min-height: 150px !important;
+    align-items: center !important;
+}
+
+.navbar-brand {
+    padding: 10px 0 !important;
 }
 </style>
 <!-- ========== HEADER ========== -->

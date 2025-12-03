@@ -8,36 +8,23 @@
 }
 
 /* CUSTOM HEADER AND LOGO STYLES */
-.navbar-custom.topnav-navbar {
-    min-height: 280px !important; /* Increase header height for larger logo */
-    display: flex !important;
-    align-items: center !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
+.navbar-custom {
+    min-height: 80px !important; /* Increase header height */
+    display: flex;
+    align-items: center;
 }
 
-a.topnav-logo {
-    display: flex !important;
-    align-items: center !important;
-    height: 100% !important;
-    padding: 10px 0 !important;
+.topnav-logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
-.topnav-logo span.topnav-logo-lg,
-.topnav-logo span.topnav-logo-sm {
-    display: flex !important;
-    align-items: center !important;
-}
-
-.topnav-logo span.topnav-logo-lg img,
-.topnav-logo span.topnav-logo-sm img,
 .topnav-logo img {
     height: auto !important;
-    max-height: 255px !important; /* 3x larger than 85px */
-    min-height: 255px !important;
+    max-height: 60px !important; /* Adjust based on header height */
     width: auto !important;
-    max-width: none !important;
-    object-fit: contain !important;
+    object-fit: contain;
 }
 </style>
 <?php
