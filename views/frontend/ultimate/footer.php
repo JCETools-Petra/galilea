@@ -84,7 +84,7 @@ $links = json_decode($social);
                   </div>
                   <!-- Logo -->
                   <a class="d-inline-flex align-items-center mb-2" href="<?php echo base_url();?>">
-                    <img src="<?php echo $logo_dark;?>" style="height:45px;" />
+                    <img src="<?php echo $logo_dark;?>" style="height:113px; width:auto; object-fit:contain;" />
                   </a>
                   <!-- End Logo -->
 
